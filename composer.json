@@ -1,0 +1,24 @@
+{
+    "name": "sifan/testgit2",
+    "description": "This is a demo for build composer packagist",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sifan",
+            "email": "1105549812@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=5.3"
+	},
+	"autoload": {
+        "psr-4": {
+            "Ford\\Escape\\": "src/Ford/Escape",
+            "Ford\\Fusion\\": "src/Ford/Fusion",
+            "Ford\\Focus\\": "src/Ford/Focus",
+            "Ford\\Fiesta\\": "src/Ford/Fiesta"
+        }
+    }
+}
